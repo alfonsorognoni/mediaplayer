@@ -19,15 +19,15 @@ self.addEventListener('fetch', event => {
 async function precache() {
   const cache = await caches.open(VERSION);
   return cache.addAll([
-    '/',
-    '/index.html',
-    '/assets/index.css',
-    '/assets/index.js',
-    '/assets/demo.mp4',
-    '/assets/MediaPlayer.js',
-    '/assets/plugins/AutoPause.js',
-    '/assets/plugins/AutoPlay.js',
-    'https://necolas.github.io/normalize.css/8.0.1/normalize.css',
+    // '/',
+    // '/index.html',
+    // '/assets/index.css',
+    // '/assets/index.js',
+    // '/assets/demo.mp4',
+    // '/assets/MediaPlayer.js',
+    // '/assets/plugins/AutoPause.js',
+    // '/assets/plugins/AutoPlay.js',
+    // 'https://necolas.github.io/normalize.css/8.0.1/normalize.css',
     // '/sw.js'
   ])
 }

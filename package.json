@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server"
+    "start": "parcel index.html typescript/index.html typescript/**/*.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.6.3"
+  },
+  "browserlist": [
+    "last 3 Chrome version"
+  ]
 }
